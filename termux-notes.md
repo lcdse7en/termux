@@ -19,4 +19,35 @@ extra-keys[ \
 ]
 ```
 
+#### 4.镜像源设置
+1. 手动设置
+```bash
+nvim /data/data/com.termux/files/usr/etc/apt/sources.list
+```
+- [中国科技大学源](https://mirrors.ustc.edu.cn/termux/)
+```list
+deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main
+```
+2. 自动设置
+```bash
+pkg install termux-tools
+termux-change-repo
+```
+#### 5.python modules
+```zsh
+pip install Pygments
+```
+
+
+#### 6.install python modules
+- 1.numpy
+```zsh
+curl -L https://its-pointless.github.io/setup-pointless-repo.sh | sh
+pkg install numpy
+```
+
 <++>
+
+
+
+
