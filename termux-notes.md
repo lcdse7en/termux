@@ -51,17 +51,20 @@ ln -s /data/data/com.termux/files/home/storage/downloads ./
 #### 7.python modules
 ```zsh
 pip install Pygments
-pip install pandas
-pip install xlwings
 ```
 
 
-#### 8.install python modules
-- 1.numpy
-```zsh
-curl -L https://its-pointless.github.io/setup-pointless-repo.sh | sh
-pkg install numpy
+#### 8.termux-style
+```bash
+git clone https://github.com/adi1090x/termux-style
+cd termux-style
+chmod +x install
+./install
+
+termux-style
 ```
+
+
 
 
 
