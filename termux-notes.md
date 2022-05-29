@@ -41,6 +41,8 @@ pkg install git nodejs wget curl ranger neovim zsh fzf
 
 #### 6.ln
 ```bash
+cd ~
+
 ln -s /data/data/com.termux/files/home/storage/pictures ./
 ln -s /data/data/com.termux/files/home/storage/downloads ./
 ```
