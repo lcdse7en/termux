@@ -36,10 +36,16 @@ termux-change-repo
 ```
 #### 5.pkg install
 ```bash
-pkg install git nodejs wget curl ranger neovim zsh
+pkg install git nodejs wget curl ranger neovim zsh fzf
 ```
 
+#### 6.ln
+```bash
+ln -s /data/data/com.termux/files/home/storage/pictures ./
+ln -s /data/data/com.termux/files/home/storage/downloads ./
+```
 
+<++>
 #### 5.python modules
 ```zsh
 pip install Pygments
