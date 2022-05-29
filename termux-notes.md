@@ -11,7 +11,8 @@ vim $PREFIX/etc/motd
 #### 3.自定义快捷栏
 ```shell
 mkdir .termux
-vim .termux/termux.properties
+cd .termux
+vim termux.properties
 
 extra-keys[ \
     ['ESC','/','`','HOME','UP','END','|'], \
