@@ -33,9 +33,17 @@ deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main
 pkg install termux-tools
 termux-change-repo
 ```
+#### 5.pkg install
+```bash
+pkg install git nodejs wget curl ranger neovim zsh
+```
+
+
 #### 5.python modules
 ```zsh
 pip install Pygments
+pip install pandas
+pip install xlwings
 ```
 
 
