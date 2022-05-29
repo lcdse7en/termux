@@ -14,9 +14,9 @@ mkdir .termux
 cd .termux
 vim termux.properties
 
-extra-keys[ \
+extra-keys=[ \
     ['ESC','/','`','HOME','UP','END','|'], \
-	['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','F5'] \
+	['TAB','CTRL','F2','LEFT','DOWN','RIGHT','F5'] \
 ]
 ```
 
