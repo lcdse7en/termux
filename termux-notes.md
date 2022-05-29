@@ -45,8 +45,8 @@ ln -s /data/data/com.termux/files/home/storage/pictures ./
 ln -s /data/data/com.termux/files/home/storage/downloads ./
 ```
 
-<++>
-#### 5.python modules
+
+#### 7.python modules
 ```zsh
 pip install Pygments
 pip install pandas
@@ -54,14 +54,14 @@ pip install xlwings
 ```
 
 
-#### 6.install python modules
+#### 8.install python modules
 - 1.numpy
 ```zsh
 curl -L https://its-pointless.github.io/setup-pointless-repo.sh | sh
 pkg install numpy
 ```
 
-<++>
+
 
 
 
