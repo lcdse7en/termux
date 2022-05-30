@@ -64,6 +64,15 @@ chmod +x install
 termux-style
 ```
 
+```bash
+cd ~/termux-style
+./tstyle
+F
+[19]Source-Code-Pro
+```
+
+
+
 
 
 
