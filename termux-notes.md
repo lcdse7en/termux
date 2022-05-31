@@ -36,7 +36,7 @@ termux-change-repo
 ```
 #### 5.pkg install
 ```bash
-pkg install git nodejs wget curl ranger neovim zsh fzf
+pkg install git nodejs wget curl ranger neovim zsh fzf w3m-img neofetch
 ```
 
 #### 6.ln
@@ -51,6 +51,7 @@ ln -s /data/data/com.termux/files/home/storage/downloads ./
 #### 7.python modules
 ```zsh
 pip install Pygments
+pip install ueberzug
 ```
 
 
@@ -70,6 +71,21 @@ cd ~/termux-style
 F
 [19]Source-Code-Pro
 ```
+#### 9.linux systrm
+```bash
+pkg install proot-distro
+
+# 查看可以安装的发行版
+proot-distro list
+proot-distro install archlinux
+
+# 进入ubuntu
+proot-distro login archlinux
+```
+<p>
+将`proot-distro login ubuntu`写入到`~/.profile`可以打开软件自动进入archlinux系统
+</p>
+
 
 
 
