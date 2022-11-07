@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone \PYGZhy{}\PYGZhy{}depth\PYG{o}{=}\PYG{l+m}{1} https://github.com/romkatv/powerlevel10k.git \PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{ZSH\PYGZus{}CUSTOM}\PYG{k}{:\PYGZhy{}}\PYG{n+nv}{\PYGZdl{}HOME}\PYG{p}{/.oh\PYGZhy{}my\PYGZhy{}zsh/custom}\PYG{l+s+si}{\PYGZcb{}}/themes/powerlevel10k
+\end{Verbatim}

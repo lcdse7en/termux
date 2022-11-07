@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  7 NOV 2022 15:25
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  7 NOV 2022 16:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1554,22 +1554,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 (./_minted-termux/B945D50068C9E8AD5B1E8275F50A33DF23F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex)
+(./_minted-termux/C1D8B3C891D1285E579A5F1578936BBB23F2847BA1E67FBF3F6193B6B7E75
+4D9.pygtex)
 (./_minted-termux/5095BAC84E75BF8C5E4A82F322F4290623F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex)
 (./_minted-termux/3D6A19BB9EF9D4A236D7B377F791E49E23F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex)
-(./_minted-termux/D6484E9E4C6ADA71040278759A62EAE623F2847BA1E67FBF3F6193B6B7E75
+(./_minted-termux/28B3CB608A31CEB8AD7182B7616B704723F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex) [2] (./termux.aux)
 Package rerunfilecheck Info: File `termux.out' has not changed.
 (rerunfilecheck)             Checksum: 0CC870FBAD6458E138E278835E2AE146;334.
  ) 
 Here is how much of TeX's memory you used:
- 42278 strings out of 475644
- 958412 string characters out of 5796303
- 1471956 words of memory out of 5000000
- 62756 multiletter control sequences out of 15000+600000
+ 42288 strings out of 475644
+ 958993 string characters out of 5796303
+ 1472029 words of memory out of 5000000
+ 62763 multiletter control sequences out of 15000+600000
  470409 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,10n,94p,1153b,1524s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on termux.xdv (2 pages, 116908 bytes).
+Output written on termux.xdv (2 pages, 128160 bytes).

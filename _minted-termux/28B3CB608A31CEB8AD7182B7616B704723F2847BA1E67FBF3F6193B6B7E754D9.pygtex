@@ -1,8 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\}]
-pkg install git
-pkg install wget
-pkg inistall ranger
-pkg install lf
+pkg install git wget
+pkg inistall ranger lf
 pkg install neovim
 pkg install zsh
 pkg install neofetch
