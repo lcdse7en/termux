@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+mkdir .termux
+\PYG{k}{cd} .termux
+\PYG{k}{vim} termux.properties
+
+extra\PYG{p}{\PYGZhy{}}keys\PYG{p}{=}[ \PYGZbs{}
+    [\PYG{l+s+s1}{\PYGZsq{}ESC\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}/\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}`\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}HOME\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}UP\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}END\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}|\PYGZsq{}}]\PYG{p}{,} \PYGZbs{}
+	[\PYG{l+s+s1}{\PYGZsq{}TAB\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}CTRL\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}F2\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}LEFT\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}DOWN\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}RIGHT\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}F5\PYGZsq{}}] \PYGZbs{}
+]
+\end{Verbatim}

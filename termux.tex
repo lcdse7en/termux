@@ -1,0 +1,136 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[margin=0.45in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true,urlcolor=Blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{tabularray}
+\usepackage[slantfont, boldfont]{xeCJK}
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{metalogo}
+\usepackage{chngcntr}
+\usepackage{fontawesome5}
+\usepackage{newclude}
+\usepackage{minted}
+\usepackage{tabularray}
+\usepackage{codebox}
+
+\usepackage[customcolors, shade]{hf-tikz}
+\usepackage{tkz-euclide}
+
+\setmainfont{Noto Sans CJK SC}
+\setCJKmainfont{Noto Sans CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+
+\usemintedstyle{xcode}
+
+
+\let\oldhref\href
+\renewcommand{\href}[3][blue]{\oldhref{#2}{\color{#1}{#3}}}
+
+% --------------------------------------------------------
+% ------------------ Link images begin -------------------
+% --------------------------------------------------------
+\newcommand{\pdf}{\includegraphics[height=.85em]{png/pdf.png}}
+\newcommand{\gh}{\includegraphics[height=.85em]{png/gh.png}}
+\newcommand{\www}{\includegraphics[height=.85em]{png/www.png}}
+\newcommand{\email}{\includegraphics[height=.85em]{png/email.png}}
+\newcommand{\rufus}{\includegraphics[height=.85em]{png/rufus.png}}
+\newcommand{\gitee}{\includegraphics[height=.85em]{png/gitee.png}}
+% --------------------------------------------------------
+% ------------------ Link images end -------------------
+% --------------------------------------------------------
+
+% --------------------------------------------------------
+% -------------- Custom title command begin --------------
+% --------------------------------------------------------
+\renewcommand{\maketitle}{
+  \hspace{.25\textwidth}
+  \begin{minipage}[t]{.5\textwidth}
+    \par{\centering{\Huge \texttt{\theauthor}}\par}
+  \end{minipage}
+  \begin{minipage}[t]{.25\textwidth}
+    {\footnotesize\hfill{}\color{gray}
+    \hfill{}Download this document:
+
+    \hfill{}\href[gray]{https://github.com/lcdse7en/archlinux}{termux.pdf \pdf}
+
+    \hfill{}(Last updated \thedate.)
+    }
+  \end{minipage}
+}
+% --------------------------------------------------------
+% -------------- Custom title command end --------------
+% --------------------------------------------------------
+
+\titleformat{\section}{\Large\bf\raggedright}{}{1em}{}[{\titlerule[2pt]}]
+
+% --------------------------------------------------------
+% ----------- setting Table environment begin ------------
+% --------------------------------------------------------
+\definecolor{mygrey}{RGB}{128,128,128}
+\definecolor{myteal}{RGB}{0,128,128}
+\definecolor{mypink}{RGB}{250,218,221}
+
+\NewTblrEnviron{mytblr}
+\SetTblrOuter[mytblr]{long}
+\SetTblrInner[mytblr]{
+  width = 0.99\linewidth,
+  rowhead = 1,
+  verb,
+  row{odd} = {bg=mypink},
+  row{1} = {bg=myteal, fg=white},
+}
+\SetTblrStyle{caption-tag}{red2}
+\SetTblrStyle{firstfoot}{fg=blue2}
+\SetTblrStyle{firsthead}{font=\bfseries}
+
+\UseTblrLibrary{counter}
+\newcounter{mycnta}
+\newcommand{\mycnta}{\stepcounter{mycnta}\arabic{mycnta}}
+\counterwithin{mycnta}{page}
+\renewcommand\themycnta{\arabic{mycnta}}
+
+\NewTableCommand\myhline{\hline[0.2em,black]}
+% --------------------------------------------------------
+% ----------- setting Table environment end --------------
+% --------------------------------------------------------
+
+\author{LcdSe7en}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{minipage}[t]{.5\linewidth}
+\begin{tabular}{rp{.75\linewidth}}
+  \baselineskip=20pt
+  \email{} :   & \href{2353442022@qq.com}{2353442022@qq.com} \\
+  \www{}   :   & \href{https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/}{Archlinux iso Download}
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{.5\linewidth}
+\begin{tabular}{rl}
+  \gh{}    :   & \href{https://github.com/lcdse7en/archlinux}{https://github.com/lcdse7en/archlinux} \\
+  \rufus{}   :   & \href{http://rufus.ie/zh/}{http://rufus.ie/zh/}
+\end{tabular}
+\end{minipage}
+
+\section{ Termux settings \textcolor{green}{\faIcon{github}} \textcolor{blue}{\faIcon{code}} \faIcon{university} \textcolor{cyan}{\faIcon{google-plus}} \faIcon{at}}
+
+\codeset{codestyle=xcode, codesize=\normalsize}
+
+\cvfile*[comments=修改termux启动问候语, lang=vim]{Modify the launch greeting}{bash/greet}
+\cvfile*[comments=挂载手机storage目录, lang=bash]{Mount the storage}{bash/mount}
+\cvfile*[comments=自定义快捷栏, lang=vim]{Customize the shortcut bar}{bash/bar}
+\cvfile*[comments=镜像源设置, lang=vim]{Mirror source settings}{bash/mirror}
+\cvfile*[comments=NerdFont字体配置, lang=bash]{Nerd Font settings}{bash/nerdfont}
+\newpage
+\cvfile*[comments=termux配置oh-my-zsh主题和插件, lang=bash]{oh-my-zsh}{bash/ohmyzsh}
+\cvfile*[comments=ssh配置, lang=bash]{SSH}{bash/ssh}
+\cvfile*[comments=ln软连接目录, lang=bash]{ln}{bash/ln}
+\cvfile*[comments=pkg包软件下载, lang=bash]{pkg install}{bash/pkg}
+
+
+\end{document}

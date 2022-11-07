@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{cd} \PYGZti{}
+
+ln \PYGZhy{}s /data/data/com.termux/files/home/storage/pictures ./
+ln \PYGZhy{}s /data/data/com.termux/files/home/storage/downloads ./
+\end{Verbatim}

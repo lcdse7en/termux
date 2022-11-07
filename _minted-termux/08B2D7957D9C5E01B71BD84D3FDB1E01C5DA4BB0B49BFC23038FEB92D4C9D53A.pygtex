@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZsh{} \PYG{k}{vim} \PYGZdl{}PREFIX\PYG{l+s+sr}{/etc/}motd
+
+Hello Se7en \PYG{p}{!}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZsh{} nvim \PYG{l+s+sr}{/data/}data\PYG{l+s+sr}{/com.termux/}\PYG{k}{files}\PYG{l+s+sr}{/usr/}etc\PYG{l+s+sr}{/apt/}sources.\PYG{n+nb}{list}
+
+deb https:\PYG{l+s+sr}{//}mirrors.ustc.edu.\PYG{k}{cn}\PYG{l+s+sr}{/termux/}apt/termux\PYG{p}{\PYGZhy{}}main stable main
+\end{Verbatim}

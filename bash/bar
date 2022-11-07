@@ -1,0 +1,8 @@
+mkdir .termux
+cd .termux
+vim termux.properties
+
+extra-keys=[ \
+    ['ESC','/','`','HOME','UP','END','|'], \
+	['TAB','CTRL','F2','LEFT','DOWN','RIGHT','F5'] \
+]

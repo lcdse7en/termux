@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Install oh\PYGZhy{}my\PYGZhy{}zsh: curl}
+sh \PYGZhy{}c \PYG{l+s+s2}{\PYGZdq{}}\PYG{k}{\PYGZdl{}(}curl \PYGZhy{}fsSL https://gitee.com/mirrors/oh\PYGZhy{}my\PYGZhy{}zsh/raw/master/tools/install.sh\PYG{k}{)}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{} Install oh\PYGZhy{}my\PYGZhy{}zsh: wget}
+sh \PYGZhy{}c \PYG{l+s+s2}{\PYGZdq{}}\PYG{k}{\PYGZdl{}(}wget \PYGZhy{}O\PYGZhy{} https://gitee.com/pocmon/mirrors/raw/master/tools/install.sh\PYG{k}{)}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} oh\PYGZhy{}my\PYGZhy{}zsh Plugin: autosuggestions}
+git clone https://github.com/zsh\PYGZhy{}users/zsh\PYGZhy{}autosuggestions \PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{ZSH\PYGZus{}CUSTOM}\PYG{k}{:\PYGZhy{}}\PYG{p}{\PYGZti{}/.oh\PYGZhy{}my\PYGZhy{}zsh/custom}\PYG{l+s+si}{\PYGZcb{}}/plugins/zsh\PYGZhy{}autosuggestions
+\PYG{c+c1}{\PYGZsh{} oh\PYGZhy{}my\PYGZhy{}zsh Plugin: zsh\PYGZhy{}syntax\PYGZhy{}highlighting}
+git clone https://github.com/zsh\PYGZhy{}users/zsh\PYGZhy{}syntax\PYGZhy{}highlighting.git \PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{ZSH\PYGZus{}CUSTOM}\PYG{k}{:\PYGZhy{}}\PYG{p}{\PYGZti{}/.oh\PYGZhy{}my\PYGZhy{}zsh/custom}\PYG{l+s+si}{\PYGZcb{}}/plugins/zsh\PYGZhy{}syntax\PYGZhy{}highlighting
+\PYG{c+c1}{\PYGZsh{} oh\PYGZhy{}my\PYGZhy{}zsh Plugin: autojump}
+yay \PYGZhy{}S autojump
+\end{Verbatim}

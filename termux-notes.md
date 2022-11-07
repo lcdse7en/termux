@@ -82,10 +82,19 @@ proot-distro install archlinux
 # 进入ubuntu
 proot-distro login archlinux
 ```
-<p>
-将`proot-distro login ubuntu`写入到`~/.profile`可以打开软件自动进入archlinux系统
-</p>
 
+# nerd fonts
+```bash
+git clone https://github.com/lcdse7en/fonts.git
+cd fonts/nerdi\ fonts/JetBrainsMono
+# mv nerdfont.ttf ~/.termux/font.ttf
+mv JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\Mono.ttf ~/termux/font.ttf
+
+pkg install lsd
+termux-reload-settings
+```
+
+<++>
 
 
 

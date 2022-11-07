@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git config \PYGZhy{}\PYGZhy{}global user.email \PYG{l+s+s2}{\PYGZdq{}2353442022@qq.com\PYGZdq{}}
+git config \PYGZhy{}\PYGZhy{}global user.name \PYG{l+s+s2}{\PYGZdq{}lcdse7en\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} SSH and GPG keys(github)}
+ssh\PYGZhy{}keygen \PYGZhy{}t rsa
+cat \PYGZti{}/.ssh/id\PYGZus{}rsa.pub
+
+\PYG{c+c1}{\PYGZsh{} http server}
+\PYG{c+c1}{\PYGZsh{} .zshrc}
+\PYG{n+nb}{alias} \PYG{n+nv}{server}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}python3 \PYGZhy{}m http.server \PYGZhy{}d /data/data/com.termux/files/home\PYGZdq{}}
+
+\end{Verbatim}

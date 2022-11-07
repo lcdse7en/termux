@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone https://github.com/lcdse7en/fonts.git
+\PYG{n+nb}{cd} JetBrainsMono
+mv nerdfont.ttf \PYGZti{}/.termux/font.ttf
+
+pkg install lsd
+termux\PYGZhy{}reload\PYGZhy{}settings
+\end{Verbatim}

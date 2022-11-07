@@ -1,0 +1,11 @@
+git config --global user.email "2353442022@qq.com"
+git config --global user.name "lcdse7en"
+
+# SSH and GPG keys(github)
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+
+# http server
+# .zshrc
+alias server="python3 -m http.server -d /data/data/com.termux/files/home"
+

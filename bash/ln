@@ -1,0 +1,4 @@
+cd ~
+
+ln -s /data/data/com.termux/files/home/storage/pictures ./
+ln -s /data/data/com.termux/files/home/storage/downloads ./
