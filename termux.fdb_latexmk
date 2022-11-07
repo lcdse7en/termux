@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1667809109 "termux.xdv" "termux.pdf" "termux" 1667809110
-  "termux.xdv" 1667809109 128160 4fc1f07cb30c585bd08e20efa9bf4ed9 "xelatex"
+["xdvipdfmx"] 1667810305 "termux.xdv" "termux.pdf" "termux" 1667810307
+  "termux.xdv" 1667810305 128652 93322726072eb1edf37873dda39d8b24 "xelatex"
   (generated)
   "termux.pdf"
-["xelatex"] 1667809106 "termux.tex" "termux.xdv" "termux" 1667809110
+["xelatex"] 1667810302 "termux.tex" "termux.xdv" "termux" 1667810307
   "/dev/null" 0 -1 0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -257,7 +257,7 @@
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1667476057 5575760 aa239daa5000ba4bf3734d03b439dc73 ""
   "/usr/local/texlive/2022/texmf.cnf" 1667475987 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "_minted-termux/08B2D7957D9C5E01B71BD84D3FDB1E01C5DA4BB0B49BFC23038FEB92D4C9D53A.pygtex" 1667804604 139 c2acba0ebf9892e6f954c5e5a68098b0 ""
-  "_minted-termux/28B3CB608A31CEB8AD7182B7616B704723F2847BA1E67FBF3F6193B6B7E754D9.pygtex" 1667809106 173 5388a87221758711caa54e4204725d32 ""
+  "_minted-termux/3838B3E735D61F804AD5E4FC93B44B2023F2847BA1E67FBF3F6193B6B7E754D9.pygtex" 1667810302 239 c392051d2d1defc7ad98e33cf332a235 ""
   "_minted-termux/3D6A19BB9EF9D4A236D7B377F791E49E23F2847BA1E67FBF3F6193B6B7E754D9.pygtex" 1667805777 214 546ed8aaa72907f393e7180e1b2b7292 ""
   "_minted-termux/5095BAC84E75BF8C5E4A82F322F4290623F2847BA1E67FBF3F6193B6B7E754D9.pygtex" 1667805692 575 e5602aa903c0f28685adf7444e089545 ""
   "_minted-termux/8AE964D688AF23053075B6EC72D4D06223F2847BA1E67FBF3F6193B6B7E754D9.pygtex" 1667803403 90 27f33bb98af8944d2b8d410083acecc7 ""
@@ -274,7 +274,7 @@
   "bash/mount" 1667805835 21 8ae964d688af23053075b6ec72d4d062 ""
   "bash/nerdfont" 1667804534 140 f10f4e9c5bf6af31edae871679ff2bc3 ""
   "bash/ohmyzsh" 1667805271 601 b945d50068c9e8ad5b1e8275f50a33df ""
-  "bash/pkg" 1667809098 120 28b3cb608a31ceb8ad7182b7616b7047 ""
+  "bash/pkg" 1667810295 166 3838b3e735d61f804ad5e4fc93b44b20 ""
   "bash/ssh" 1667805683 259 5095bac84e75bf8c5e4a82f322f42906 ""
   "bash/themes" 1667808798 125 c1d8b3c891d1285e579a5f1578936bbb ""
   "png/email.png" 1667804494 277977 5a2b110c37725c7c76376f0686f9d1bd ""
@@ -282,9 +282,9 @@
   "png/pdf.png" 1667803169 61882 fb98591ca3887381ff293ebd1453e574 ""
   "png/rufus.png" 1667803169 11725 b09f06b4d420057b975a2cca79d12fc0 ""
   "png/www.png" 1667803169 13871 298b88c19ef806e588ccabb2ea3e434f ""
-  "termux.aux" 1667809109 1575 c357f953bbd23a5273ef0d9770688a9c "xelatex"
-  "termux.out" 1667809109 334 0cc870fbad6458e138e278835e2ae146 "xelatex"
-  "termux.tex" 1667809071 4976 4c454d9bcded0f919e052dc7b6493e0d ""
+  "termux.aux" 1667810305 1575 248a33242354cac378f3157c99ef510c "xelatex"
+  "termux.out" 1667810305 334 0cc870fbad6458e138e278835e2ae146 "xelatex"
+  "termux.tex" 1667809435 4976 4c454d9bcded0f919e052dc7b6493e0d ""
   (generated)
   "termux.aux"
   "termux.log"

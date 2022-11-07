@@ -1,6 +1,6 @@
 pkg install git wget
-pkg inistall ranger lf
+pkg inistall lf # cp lfub /data/data/com.termux/files/usr/bin
 pkg install neovim
-pkg install zsh
+pkg install zsh ranger
 pkg install neofetch
 pkg install openshh

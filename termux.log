@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  7 NOV 2022 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  7 NOV 2022 16:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1560,7 +1560,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 4D9.pygtex)
 (./_minted-termux/3D6A19BB9EF9D4A236D7B377F791E49E23F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex)
-(./_minted-termux/28B3CB608A31CEB8AD7182B7616B704723F2847BA1E67FBF3F6193B6B7E75
+(./_minted-termux/3838B3E735D61F804AD5E4FC93B44B2023F2847BA1E67FBF3F6193B6B7E75
 4D9.pygtex) [2] (./termux.aux)
 Package rerunfilecheck Info: File `termux.out' has not changed.
 (rerunfilecheck)             Checksum: 0CC870FBAD6458E138E278835E2AE146;334.
@@ -1574,4 +1574,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  98i,10n,94p,1153b,1524s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on termux.xdv (2 pages, 128160 bytes).
+Output written on termux.xdv (2 pages, 128652 bytes).
